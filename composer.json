@@ -60,7 +60,8 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "start": "symfony server:start --port=8080"
     },
     "conflict": {
         "symfony/symfony": "*"
