@@ -13,8 +13,8 @@ Esta API permite consultar um endereço com base no CEP informado, utilizando a 
 
 A API é construída com o Symfony e utiliza as seguintes dependências:
 
-- **PHP 7.4+**
-- **Symfony 5.x ou superior**
+- **PHP 8.3.14**
+- **Symfony 5.10.4**
 - **Redis**: Necessário para o cache de dados.
 - **HttpClientInterface**: Para realizar as requisições HTTP à API externa.
 
