@@ -1,0 +1,9 @@
+controllers:
+  resource:
+    path: ../src/Controller/
+    namespace: App\Controller
+  type: attribute
+buscar_cep:
+  path: /cep/{cep}
+  controller: App\Controller\CepController::buscarCep
+  methods: [GET]
